@@ -1,0 +1,35 @@
+// ALL MAIN COLORS
+$white: hsl(0, 0%, 99%);
+$black: hsla(0, 0%, 33%, 1);
+$gray: hsla(0, 0%, 94%, 1);
+$gray-dark: hsla(0, 0%, 0%, 0.4);
+$gray-medium: hsla(0, 0%, 0%, 0.1);
+
+$blue: hsl(211, 100%, 25%);
+$red: hsl(0, 77%, 61%);
+$green: hsla(63, 99%, 40%, 1);
+$teal-dark: hsla(168, 45%, 23%, 1);
+$teal: hsla(167, 44%, 48%, 1);
+$teal-light: hsla(164, 22%, 90%, 1);
+
+// PRIMARY COLORS
+$primary: $teal;
+
+// SECONDARY COLORS
+$secondary: $teal-light;
+
+// TERTIARY COLORS
+$tertiary: $teal-dark;
+
+
+// THEMES
+$theme-colors: ('white': $white,
+  'black': $black,
+  'primary': $primary,
+  'secondary': $secondary,
+  'tertiary': $tertiary,
+  'success': $green,
+  'danger': $red,
+  'info': $blue,
+  'gray': $gray,
+  'gray-dark': $gray-dark) !default;

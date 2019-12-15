@@ -1,0 +1,76 @@
+$container-max-widths: (xl: 1200px);
+
+$grid-breakpoints: (xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px) !default;
+
+$spacer: 0.625rem; //10px
+$spacers: (0: 0,
+  1: $spacer,
+  /*10px*/
+  2: ($spacer * 1.8),
+  /*18px*/
+  3: ($spacer * 2),
+  /*20px*/
+  4: ($spacer * 3),
+  /*30px*/
+  5: ($spacer * 4),
+  /*40px*/
+  6: ($spacer * 4.5),
+  /*45px*/
+  7: ($spacer * 5),
+  /*50px*/
+  8: ($spacer * 8),
+  /*80px*/
+) !default;
+
+@import 'color';
+@import '~bootstrap/scss/bootstrap';
+@import 'fonts';
+@import 'typography';
+@import 'keyframes';
+@import 'variables';
+@import 'header';
+@import 'home';
+@import 'about';
+
+h1,
+h2,
+h4,
+h3,
+h5,
+h6 {
+  color: $primary;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  color: $black;
+  font-family: $font-base;
+  margin: 0;
+}
+
+.preload * {
+  display: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.font-weight-bold {
+  font-weight: initial !important;
+  font-family: $font-bold;
+
+}

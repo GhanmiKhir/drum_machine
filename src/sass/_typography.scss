@@ -1,0 +1,18 @@
+@import 'fonts';
+@import 'color';
+
+$font-size-base: 1rem; // 16px
+$font-size-2xs: ($font-size-base * 0.625); //10px
+$font-size-xs: ($font-size-base * 0.75); //12px
+$font-size-sm: ($font-size-base * 0.875); //14px
+$font-size-md: ($font-size-base * 1.125); //18x
+$font-size-lg: ($font-size-base * 1.25); //20px
+$font-size-xl: ($font-size-base * 1.5); //24px
+$font-size-2xl: ($font-size-base * 1.75); //28px
+$font-size-3xl: ($font-size-base * 2); //32px
+
+$font-family-base: $font-base;
+
+$font-weight-light: 100;
+$font-weight-regular: 400;
+$font-weight-bold: 700;

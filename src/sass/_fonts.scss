@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Brandon Grotesque light;
+  src: url("../fonts/BrandonGrotesque-Light.woff2") format("woff2"),
+    url("../fonts/BrandonGrotesque-Light.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Brandon Grotesque;
+  src: url("../fonts/BrandonGrotesque-Regular.woff2") format("woff2"),
+    url("../fonts/BrandonGrotesque-Regular.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Brandon Grotesque bold;
+  src: url("../fonts/BrandonGrotesque-Medium.woff2") format("woff2"),
+    url("../fonts/BrandonGrotesque-Medium.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Hipster Script;
+  src: url("../fonts/Hipster-Script.woff2") format("woff2"),
+    url("../fonts/Hipster-Script.woff") format("woff"),
+    url("../fonts/Hipster-Script.ttf") format("truetype");
+}
+
+$font-light: Brandon Grotesque light;
+$font-base: Brandon Grotesque;
+$font-bold: Brandon Grotesque bold;
+$font-cursive: Hipster Script;
