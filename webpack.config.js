@@ -56,6 +56,7 @@ module.exports = (env, options) => ({
           {
             loader: 'file-loader',
             options: {
+              esModule: false,
               name: '[name].[ext]',
               outputPath: 'audio/'
             }
