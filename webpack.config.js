@@ -51,6 +51,18 @@ module.exports = (env, options) => ({
         ]
       },
       {
+        test: /\.(ogg|mp3|wav|mpe?g)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'audio/'
+            }
+          }
+        ]
+      },
+      {
         test: /\.(html)$/,
         use: {
           loader: 'html-srcsets-loader',
